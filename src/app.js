@@ -29,11 +29,5 @@ function calculateArea() {
         resultElement.innerText = "Kérem, adjon meg érvényes oldalhosszakat.";
     }
 }
-    // Húrnégyszög területének kiszámítása:
 
-    // Fékerület kiszámítása (S = halfperimeter)
-    //var s = (side1 + side2 + side3 + side4) / 2;
-
-    // Eredmény kiírása
-    //document.getElementById("result").innerHTML = "A húrnégyszög területe: " + area;
 
