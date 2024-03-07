@@ -1,19 +1,22 @@
-const sideInput = document.querySelector("#side")
-const perimeterInput = document.querySelector("#perimeter")
-const calcButton = document.querySelector("#calcButton")
+/*
+File: feladat0315_NodeJS.html
+Author: Molnár Bence
+Copyright: 2024, Molnár Bence
+Group: Szoft 1-I-N
+Date: 2024-03-07
+Github: https://github.com/molnarbence/
+Licenc: GNU GPL
+*/
 
-/*Eseménykezelő*/
-calcButton.addEventListener('click', () => {
-    startCalc();
-});
 
-function startCalc() {
-    const side = Number(sideInput.value)
-    const perimeter = calcPerimeter(side)
-    console.log('Kerület: ', perimeter)
-    perimeterInput.value = perimeter //Így egyenlő lesz a html az id-vel
-}
+function calculateArea() {
+    var side1 = parseFloat(document.getElementById("side1").value);
+    var side2 = parseFloat(document.getElementById("side2").value);
+    var height = parseFloat(document.getElementById("height").value);
 
-function calcPerimeter(side) {
-    return side * 4
+    // Húrnégyszög területének kiszámítása
+    var area = (side1 + side2) * height / 2;
+
+    // Eredmény kiírása
+    document.getElementById("result").innerHTML = "A húrnégyszög területe: " + area;
 }
