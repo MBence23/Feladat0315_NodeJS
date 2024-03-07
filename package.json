@@ -7,7 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "browser-sync start --config bs-config.json"
   },
-  "keywords": ["Húrnégyszög", "Terület", "Számítás"],
+  "keywords": [
+    "Húrnégyszög",
+    "Terület",
+    "Számítás"
+  ],
   "author": "Molnár Bence",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^3.0.2"
+  }
 }
