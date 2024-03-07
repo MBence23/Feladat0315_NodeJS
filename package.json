@@ -1,0 +1,13 @@
+{
+  "name": "feladat0315_nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "browser-sync start --config bs-config.json"
+  },
+  "keywords": ["Húrnégyszög", "Terület", "Számítás"],
+  "author": "Molnár Bence",
+  "license": "ISC"
+}

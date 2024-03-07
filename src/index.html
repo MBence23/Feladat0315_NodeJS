@@ -1,0 +1,44 @@
+<!--
+File: feladat0315_NodeJS.html
+Author: Molnár Bence
+Copyright: 2024, Molnár Bence
+Group: Szoft 1-I-N
+Date: 2024-03-07
+Github: https://github.com/molnarbence/
+Licenc: GNU GPL
+-->
+
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Húrnégyszög területe</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+<body>
+    <div class="container">
+        <div class="hurnegyszogForm">
+            <div class="input">
+                <label for="side">Oldal</label>
+                <input type="text"
+                class="form-control"
+                id="side" required>
+            </div>
+            <div>
+                <button id="calcButton"
+                class="btn btn-primary">Számít</button>
+            </div>
+            <div class="input">
+                <label for="perimeter">Terület</label>
+                <input type="text"
+                class="form-control"
+                id="perimeter" readonly>
+            </div>
+        </div>
+    </div>
+	<script src="app.js"></script>
+    
+    
+</body>
+</html>
