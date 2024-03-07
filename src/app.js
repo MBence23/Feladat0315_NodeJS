@@ -14,10 +14,12 @@ function calculateArea() {
     var side2 = parseFloat(document.getElementById("side2").value);
     var side3 = parseFloat(document.getElementById("side3").value);
     var side4 = parseFloat(document.getElementById("side4").value);
-    var height = parseFloat(document.getElementById("height").value);
+    
 
-    // Húrnégyszög területének kiszámítása
-    var area = (side1 + side2 + side3 + side4) * height / 2;
+    // Húrnégyszög területének kiszámítása:
+
+    // Fékerület kiszámítása
+    var s = (side1 + side2 + side3 + side4) / 2;
 
     // Eredmény kiírása
     document.getElementById("result").innerHTML = "A húrnégyszög területe: " + area;
